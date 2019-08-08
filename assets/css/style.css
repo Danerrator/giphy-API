@@ -1,0 +1,59 @@
+body {
+  font: 18px arial, sans-serif;
+  background: rgb(78, 6, 6);  
+}
+
+h1 {
+  color: white;
+  font-family: 'Marvel', sans-serif;
+  font-weight: 2000;
+  font-size: 50px;
+}
+#hero{
+  float: left;
+  background: white;
+  margin-right: 20px;
+}
+
+form{
+  float: right;
+  width: 30%;
+  padding: 20px;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: 'Marvel', sans-serif;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+button,
+input[type="submit"] {
+  padding: 5px 20px;
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background: rgb(92, 9, 9);
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 20px 3px #bbb;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #334e4d;
+}
+
+button.active {
+  background: #334e4d;
+}
